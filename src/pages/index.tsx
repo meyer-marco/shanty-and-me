@@ -23,12 +23,16 @@ export default function Main() {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col">
+    <div className="h-screen  bg-white">
       <NavBar />
-      <div className="h-screen flex flex-row justify-center content-center">
+      <div className="flex flex-col content-center justify-center flex-wrap">
+        {" "}
         <Logo />
-        <div className="flex flex-row justify-center content-center">
-          <h1>WaveSurfer Demo</h1>
+      </div>
+
+      <div className="h-screen bg-white ">
+        {/*   <Logo /> */}
+        <div className="p-6">
           <Waveform audio={letMeFloat} />
         </div>
       </div>
