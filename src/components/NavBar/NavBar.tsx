@@ -6,8 +6,8 @@ export interface NavBarProps {}
 
 export default function NavBar(props: NavBarProps) {
   return (
-    <div className={`flex w-full justify-center content-center ${style.nav}`}>
-      <div className="flex flex-col justify-center content-center text-white">
+    <div className={`flex w-full ${style.nav}`}>
+      <div className="flex flex-col justify-center content-start pl-4  text-neutral-50 sm:text-xl font-light text-sm flex-wrap ">
         <Link href="/">
           {/*    <Logo width={90} height={90} /> */}
           {"Shanty & Me"}
