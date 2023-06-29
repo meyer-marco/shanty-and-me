@@ -19,6 +19,7 @@ const Waveform = ({ audio }: { audio: any }) => {
       autoCenter: true,
       progressColor: "#fbae42",
       fillParent: true,
+      autoplay: false,
     });
     /*     waveSurfer.registerPlugin(
       TimelinePlugin.create({
