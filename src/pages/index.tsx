@@ -25,9 +25,10 @@ export default function Main() {
   return (
     <div className="h-screen  bg-white">
       <NavBar />
-      <div className="flex flex-col content-center justify-center flex-wrap">
+      <div /* className="flex flex-col content-center justify-center flex-wrap" */
+      >
         {" "}
-        <Logo />
+        {/*    <Logo /> */}
       </div>
 
       <div className="h-screen bg-white ">
