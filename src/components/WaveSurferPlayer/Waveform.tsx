@@ -9,8 +9,6 @@ const Waveform = ({ audio }: { audio: any }) => {
   const waveSurferRef = useRef<any>(null);
   const [isPlaying, toggleIsPlaying] = useState(false);
 
-  // TODO: fix click behaviour
-
   useEffect(() => {
     const waveSurfer = WaveSurfer.create({
       container: containerRef.current as HTMLDivElement,
